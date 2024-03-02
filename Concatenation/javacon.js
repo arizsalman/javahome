@@ -23,3 +23,19 @@ var fr= 'Intelligence '
 var op= 'open '
 var so= 'Source'
 console.log(fr+op+so)
+
+var ha= 'Happy '
+var br= 'Birthday '
+var to= 'To You'
+console.log(ha + br +to)
+
+var goo= 'Good '
+var lu= 'Luck '
+var ha= 'Have '
+var fu= 'Fun '
+console.log(goo + lu +ha +fu )
+
+var we= 'Web '
+var de= 'Designing '
+var da ="Development"
+console.log(we+de+da)
