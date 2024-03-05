@@ -50,14 +50,14 @@
 // }
 
 
-var num1=prompt('Enter First Number');
-var num2=prompt('Enter Second Number');
-if(num1>num2){
-    LargerNumber=num1;
-}else{
-    LargerNumber=num2;
-}
-console.log('The Larger number is',LargerNumber);
+// var num1=prompt('Enter First Number');
+// var num2=prompt('Enter Second Number');
+// if(num1>num2){
+//     LargerNumber=num1;
+// }else{
+//     LargerNumber=num2;
+// }
+// console.log('The Larger number is',LargerNumber);
 
 var num1=prompt("Enter First Number");
 var num2=prompt("Enter Second Number");
@@ -72,5 +72,34 @@ if(num1<num2<num3){
     SmallerNumber=num3
 }
 console.log("The Smaller number is" ,SmallerNumber);
+
+
+// var numf=prompt("Enter The Factorial Number");
+// if(n==0){
+//     num <0
+// }else{( facto (n-1)*n)
+// }
+// console.log(facto(n))
+var mark1=prompt("Enter Subject One (Out of 100)")
+var mark2=prompt("Enter Subject Two  (Out of 100)")
+var mark3=prompt("Enter Subject Three (Out of 100)")
+if(mark1||mark2||mark3){
+  alert("Please enter valid numbers for marks.");
+}
+var average=(mark1+mark2+mark3)/3;
+
+var grade;
+if( average >=90){
+    grade="A";
+} else if( average>=80){
+    grade="B";
+} else if (average>=70){
+    grade="C";
+} else if( average>= 60){
+    grade="D";
+} else {
+    grade="F"
+}
+console.log( `your grade is ${grade}`);
 
 
