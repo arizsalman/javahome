@@ -42,6 +42,7 @@
 
 
 
+
 // var calNum=prompt('Solve Your Math Problem')
 // if(num+num){
 //     document.write(`Answer`)
@@ -59,19 +60,19 @@
 // }
 // console.log('The Larger number is',LargerNumber);
 
-var num1=prompt("Enter First Number");
-var num2=prompt("Enter Second Number");
-var num3=prompt('Enter Third Number');
-if(num1<num2<num3){
-    SmallerNumber=num1;
-}else{
-    SmallerNumber=num2
-}if (SmallerNumber=num3) {
+// var num1=prompt("Enter First Number");
+// var num2=prompt("Enter Second Number");
+// var num3=prompt('Enter Third Number');
+// if(num1<num2<num3){
+//     SmallerNumber=num1;
+// }else{
+//     SmallerNumber=num2
+// }if (SmallerNumber=num3) {
     
-}else {
-    SmallerNumber=num3
-}
-console.log("The Smaller number is" ,SmallerNumber);
+// }else {
+//     SmallerNumber=num3
+// }
+// console.log("The Smaller number is" ,SmallerNumber);
 
 
 // var numf=prompt("Enter The Factorial Number");
@@ -80,26 +81,57 @@ console.log("The Smaller number is" ,SmallerNumber);
 // }else{( facto (n-1)*n)
 // }
 // console.log(facto(n))
-var mark1=prompt("Enter Subject One (Out of 100)")
-var mark2=prompt("Enter Subject Two  (Out of 100)")
-var mark3=prompt("Enter Subject Three (Out of 100)")
-if(mark1||mark2||mark3){
-  alert("Please enter valid numbers for marks.");
+// var mark1=prompt("Enter Subject One (Out of 100)")
+// var mark2=prompt("Enter Subject Two  (Out of 100)")
+// var mark3=prompt("Enter Subject Three (Out of 100)")
+// if(mark1||mark2||mark3){
+//   alert("Please enter valid numbers for marks.");
+// }
+// var average=(mark1+mark2+mark3)/3;
+
+// var grade;
+// if( average >=90){
+//     grade="A";
+// } else if( average>=80){
+//     grade="B";
+// } else if (average>=70){
+//     grade="C";
+// } else if( average>= 60){
+//     grade="D";
+// } else {
+//     grade="F"
+// }
+// console.log( `your grade is ${grade}`);
+
+
+
+// var mainAge=prompt('Enter Your Age');
+// if(mainAge<=12){
+// mainAge="Child"
+// }else if (mainAge<=19) {
+//  mainAge="Teenager"    
+// } else if (mainAge<=64) {
+// mainAge='Adult'    
+// }else if( mainAge<=110){
+//    mainAge=" Senior"
+// }
+// console.log( `your age is ${mainAge}`)
+
+var fNum1=+prompt('Enter Your Maths Question in+& -')
+var fNum2=+prompt('Enter Your Maths Question in+& -')
+console.log( typeof fNum1);
+console.log(fNum1+fNum2|| fNum1-fNum2);
+if (fNum1>fNum2) {
+   console.log(fNum1);
+}else{
+   console.log(fNum2)
 }
-var average=(mark1+mark2+mark3)/3;
 
-var grade;
-if( average >=90){
-    grade="A";
-} else if( average>=80){
-    grade="B";
-} else if (average>=70){
-    grade="C";
-} else if( average>= 60){
-    grade="D";
-} else {
-    grade="F"
+alert("Please Only Alphabet");
+var vow=prompt("Enter The Alphabet");
+// var alpha=(a,e,i,o,u);
+if (vow === "a" || vow === "e"||vow==="u"||vow==="i"||vow==="o") {
+   console.log( "Vowel");
+}else{
+   console.log("Consonant")
 }
-console.log( `your grade is ${grade}`);
-
-
