@@ -117,21 +117,66 @@
 // }
 // console.log( `your age is ${mainAge}`)
 
-var fNum1=+prompt('Enter Your Maths Question in+& -')
-var fNum2=+prompt('Enter Your Maths Question in+& -')
-console.log( typeof fNum1);
-console.log(fNum1+fNum2|| fNum1-fNum2);
-if (fNum1>fNum2) {
-   console.log(fNum1);
-}else{
-   console.log(fNum2)
-}
+// var fNum1=+prompt('Enter Your Maths Question in+& -')
+// var fNum2=+prompt('Enter Your Maths Question in+& -')
+// console.log( typeof fNum1);
+// console.log(fNum1+fNum2|| fNum1-fNum2);
+// if (fNum1>fNum2) {
+//    console.log(fNum1);
+// }else{
+//    console.log(fNum2)
+// }
 
-alert("Please Only Alphabet");
-var vow=prompt("Enter The Alphabet");
-// var alpha=(a,e,i,o,u);
-if (vow === "a" || vow === "e"||vow==="u"||vow==="i"||vow==="o") {
-   console.log( "Vowel");
-}else{
-   console.log("Consonant")
+// alert("Please Only Alphabet");
+// var vow=prompt("Enter The Alphabet");
+// // var alpha=(a,e,i,o,u);
+// if (vow === "a" || vow === "e"||vow==="u"||vow==="i"||vow==="o") {
+//    console.log( "Vowel");
+// }else{
+//    console.log("Consonant")
+// }
+
+
+
+// let Num1=prompt("Enter A Number ");
+// if (Num1 % 2 == 0){
+//    console.log("The Number is Even");
+// }else{
+//    console.log("The Number is Odd");
+// }
+
+// let Num2=prompt("Enter The Number ");
+// if (Num % 2 == 0) {
+//    console.log("The Number is Positive");
+// }else{
+//    console.log("The Number is  Negative");
+// }
+
+var num=prompt('Enter The Marks ,Out of 100');
+if (num>=90) {
+   console.log("A plus grade")
+}else if(num>=80){
+   console.log( 'A grade ');
+}else if (num>=70) {
+   console.log("B grade");
+} else {
+   console.log('Fail ');
 }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
