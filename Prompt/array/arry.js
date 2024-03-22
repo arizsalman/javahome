@@ -42,13 +42,13 @@
 //   document.write ( typ[8]+" . <br>" ,  );
 
 // // question no 8
-var score  =['  haris ',' Ali',' Ahmed' , 'Alyan' ,'Bilal'];
-var score1 =[422,478,486,390,444];
- console.log(score[0] +  score1[0] / 500 * 100);
- console.log( score[1]+ score1[1]/ 500* 100);
- console.log(score[2]+ score1[2] /500 *100);
- console.log(score[3]+ score1[3] /500 *100);
- console.log(score[4]+ score1[4] /500 *100);
+// var score  =['  haris ',' Ali',' Ahmed' , 'Alyan' ,'Bilal'];
+// var score1 =[422,478,486,390,444];
+//  console.log(score[0] +  score1[0] / 500 * 100);
+//  console.log( score[1]+ score1[1]/ 500* 100);
+//  console.log(score[2]+ score1[2] /500 *100);
+//  console.log(score[3]+ score1[3] /500 *100);
+//  console.log(score[4]+ score1[4] /500 *100);
 //  console.log(score+ score1 .join( '&'));
 
 
