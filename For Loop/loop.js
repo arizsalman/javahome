@@ -98,25 +98,62 @@
 //     document.write( " You Are not Includes Here! ");
 //    }
 
-// question 12
- var menu=['Tikka','Nehare','polau',"beef Burger", "Zinger Burger" ,'7up',];
-var dish=prompt("What's Your Food Order");
-var won=false;
- for (let i = 0; i < menu.length; i++) {
-  console.log(menu[i]);
+// // question 12
+//  var menu=['Tikka','Nehare','polau',"beef Burger", "Zinger Burger" ,'7up',];
+// var dish=prompt("What's Your Food Order");
+// var won=false;
+//  for (let i = 0; i < menu.length; i++) {
+//   console.log(menu[i]);
 
  
- if (menu[i]==dish) {
-  won=true
-  break; 
+//  if (menu[i]==dish) {
+//   won=true
+//   break; 
+// }
+// }
+// if (won) {
+//   document.write('Your Order Has Active Please 15 Minutes waits " THANKS!" ')
+// }else{
+//   document.write( ' Your Choice & food Not Avalible " SooRY!"')
+// }
+
+
+// //Nested loop =>
+
+//question no 1
+
+//  var coinNum=[12,34,32,43,54,65,76,87,98,90,123,1456,2778,456,775];
+
+//  var reNum=[13,24,332,413,54,65,76,827,38,340,1223,156,278,156,275];
+
+// var userWon=[];
+
+// for (let i = 0; i < coinNum.length; i++) {
+//   for (let j = 0; j < reNum.length; j++) {
+//     console.log(coinNum[i] === reNum[j] );
+
+//       if (coinNum[i]===reNum[j]) {
+//         userWon.push(coinNum[i])
+//       }
+//   }
+  
+// }
+//     console.log("Prize bond ye nikle hen=>", userWon);
+
+// question no 2
+
+var carName=['landrover','Carolla','Alto','Suzuki','Carry','Toyota','Fortuner']
+
+var reName=['landrover','Carolla','Car','sport','City','Toyota','kas']
+
+var userWon=[];
+
+for (let i = 0; i < carName.length; i++) {
+  for (let j = 0; j < reName.length; j++) {
+    console.log(carName[i] === reName[j]);
+    if (carName[i] ===reName[j]) {
+     userWon.push(carName[i]) 
+    }
+  }
 }
-}
-if (won) {
-  document.write('Your Order Has Active Please 15 Minutes waits " THANKS!" ')
-}else{
-  document.write( ' Your Choice & food Not Avalible " SooRY!"')
-}
-
-
-
-
+console.log('Only For This Car',userWon);
