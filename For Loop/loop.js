@@ -120,7 +120,7 @@
 
 // //Nested loop =>
 
-//question no 1
+//question no 13
 
 //  var coinNum=[12,34,32,43,54,65,76,87,98,90,123,1456,2778,456,775];
 
@@ -140,20 +140,50 @@
 // }
 //     console.log("Prize bond ye nikle hen=>", userWon);
 
-// question no 2
+// question no 14
 
-var carName=['landrover','Carolla','Alto','Suzuki','Carry','Toyota','Fortuner']
+// var carName=['landrover','Carolla','Alto','Suzuki','Carry','Toyota','Fortuner']
 
-var reName=['landrover','Carolla','Car','sport','City','Toyota','kas']
+// var reName=['landrover','Carolla','Car','sport','City','Toyota','kas']
 
-var userWon=[];
+// var userWon=[];
 
-for (let i = 0; i < carName.length; i++) {
-  for (let j = 0; j < reName.length; j++) {
-    console.log(carName[i] === reName[j]);
-    if (carName[i] ===reName[j]) {
-     userWon.push(carName[i]) 
-    }
-  }
-}
-console.log('Only For This Car',userWon);
+// for (let i = 0; i < carName.length; i++) {
+//   for (let j = 0; j < reName.length; j++) {
+//     console.log(carName[i] === reName[j]);
+//     if (carName[i] ===reName[j]) {
+//      userWon.push(carName[i]) 
+//     }
+//   }
+// }
+// console.log('Only For This Car',userWon);
+
+
+
+//question no 15
+
+// var num=[1,2,3,4,5]
+// console.log(num.splice(1,1,));
+
+
+//question no 16
+
+var furitName=['apple','banana', 'mango', 'orange','kiwi']
+
+ console.log(furitName.splice (1,1, 'pineapple ') );
+ console.log(furitName.splice (4,1, 'Amin ') );
+console.log(furitName);
+
+//  // question no 17 
+//  var  colors = ["red", "green", "blue", "yellow", "purple"]
+//  console.log( colors.slice(1,3));
+
+
+// // question no 17
+//  var numbers = [10, 20, 30, 40, 50]
+//  console.log(numbers.slice(2));
+
+// // question no 17
+
+//  var  fruits = ["apple", "banana", "cherry", "date", "fig"]
+//  console.log(fruits.slice(2,4));
