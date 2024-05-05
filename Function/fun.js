@@ -26,3 +26,26 @@ function generate() {
  
   heading.innerText = random;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+var bestNumber=document.getElementById('bestNumber');
+// var type=Number(prompt("Plz wirte the  TEN number ONLY ONE NUMBER WRITE"));
+
+function press(){
+  console.log(bestNumber);
+  var random=Math.round(Math.random()*7);
+  bestNumber.innerText=random;
+
+
+}

@@ -1,0 +1,82 @@
+body{
+    /* background-image: url(png\ clo.jpg); */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+.container{
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    text-align: center ;
+    font-size: 70px;
+    color: blue;
+
+}
+.clock{
+
+  display: flex;
+  justify-self: center;
+  flex-direction: row;
+  text-align: center ;
+  font-size: 50px;
+  color: blue;
+
+}
+.day{
+    display: flex;
+    margin: 50px;
+    width: 100px;
+    height:  100px;
+  justify-content: center;
+    /* border: currentColor; */
+    font-size: 50px;
+    color: rgb(0, 132, 255);
+    background-color:transparent;
+}
+
+.month{
+    display: flex;
+    margin: 50px;
+    width: 100px;
+    height:  100px;
+  justify-content: center;
+    /* border: 4px solid gray; */
+    font-size: 50px;
+    color: rgb(0, 132, 255);
+    background-color:transparent;
+}
+.hours{
+    display: flex;
+    margin: 50px;
+    width: 100px;
+    height:  100px;
+  justify-content: center;
+    /* border: 4px solid gray; */
+    font-size: 50px;
+    color: rgb(0, 132, 255);
+    background-color:transparent;
+}
+.minutes{
+    display: flex;
+    margin: 50px;
+    width: 100px;
+    height:  100px;
+  justify-content: center;
+    /* border: 4px solid gray; */
+    font-size: 50px;
+    color: rgb(0, 132, 255);
+    background-color:transparent;
+}
+ 
+.second{
+    display: flex;
+    margin: 50px;
+    width: 100px;
+    height:  100px;
+  justify-content: center;
+    /* border: 4px solid gray; */
+    font-size: 50px;
+    text-rendering: auto;
+    color: rgb(255, 0, 149);
+    background-color: transparent;
+}
