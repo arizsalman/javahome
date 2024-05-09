@@ -1,0 +1,109 @@
+ /* .cal{
+    display: flex;
+    flex-wrap: wrap; */
+    /* flex-direction: column; 
+  body{
+    background-image: url(img.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 230px;
+    height: 40px;
+    margin-left: 30%;
+    margin-top: 40px;
+    margin-bottom: 9px;
+    color:rgb(80, 153, 51);
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: 40px;
+    margin-left: 30%;
+   margin-top: 40px; 
+    color:rgb(51, 87, 153); }  */
+
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      color: white;
+      border-color: white;
+      background-image: url("https://t3.ftcdn.net/jpg/02/06/14/56/360_F_206145642_ch7d799Dq38xZfRQjEAYRLaYS9jsmezF.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: auto;
+    }
+    
+    table,
+    tr,
+    td {
+      border: 3px groove white;
+      box-shadow: 1px 0px white;
+      border-collapse: collapse;
+      text-align: center;
+      width: 400px;
+      height: 73px;
+      cursor: pointer;
+      font-size: 20px;
+      font-family: sans-serif;
+    }
+    
+    .perform-field {
+      background-color: rgb(25, 24, 24);
+      color: white;
+    }
+    
+    .text {
+      text-align: right;
+      padding-right: 10px;
+      cursor: auto;
+    }
+    
+    .equal {
+      background-color: orangered;
+    }
+    
+    .calculator {
+      color: white;
+      font-size: 50px;
+      font-family: sans-serif;
+    }
+    
+    @media only screen and (max-width: 330px) {
+      table,
+      tr,
+      td {
+        border: 1px groove white;
+        border-collapse: collapse;
+        text-align: center;
+        width: 250px;
+        height: 37px;
+        cursor: pointer;
+      }
+    }
+    
+    @media only screen and (max-width: 275px) {
+      table,
+      tr,
+      td {
+        border: 1px groove white;
+        border-collapse: collapse;
+        text-align: center;
+        width: 190px;
+        height: 30px;
+        cursor: pointer;
+      }
+    
+      h1 {
+        font-size: 25px;
+      }
+    }
