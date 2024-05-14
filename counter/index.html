@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+</head>
+
+<body>
+    <style>
+    body{
+            background-color: rgb(238, 255, 0);
+        }
+        h1{
+            /* font-size: 40px; */
+            display: flex;
+            justify-content: center;
+            font: 50px sans-serif;
+            color: chartreuse;
+        }
+        .main_cantainer{
+            display: flex;
+            font: 50px sans-serif;
+            justify-content: center;
+        }
+           .btn {
+            display: flex;
+            justify-content: center;
+            font-size: xx-large;
+            margin-top: 40px;
+            background-color: transparent;
+            color: forestgreen;
+        }
+    </style>
+    <h1> My Counter App </h1>
+    
+    <!-- <h2 id="number">15000 <span>My Saving</span></h2>
+    <button onclick="upGrade()">INCRESE</button>
+    <button onclick="deGrade()">DECRESE</button>
+    <button onclick="reset()">RESET</button>
+
+    <h2 id="upgrade_value">__</h2> -->
+
+
+
+    <div class="main_cantainer">
+
+   
+        <div id="counter">0</div>
+        <div id="even-odd">Even</div>
+
+     </div>
+
+     <div class="btn">
+     <button id="increse">Increse</button>
+     <button id="decrese">Decrese</button>
+     <button id="reset">Reset</button>
+        <div id="history">
+         <ul></ul>
+
+        </div>
+    </div>
+    
+    
+
+    
+    <script src="count.js"></script>
+</body>
+</html>
