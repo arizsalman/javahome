@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-image: url(you.avif);
+        background-color: rgb(120, 205, 50);
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .text{
+        /* display: flex;
+        justify-content: center; */
+        margin-left: 20%;
+        width: 500px;
+        height: 350px;
+        border: 2px solid darkorange;
+    }
+    .btn{
+        font-size: 30px;
+        /* display: grid;
+        grid-template-rows: 1fr 1fr;
+        /* display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: nowrap; */ 
+    }
+</style>
+<body>
+    <h1> TextEiditer</h1>
+    <textarea  class="text" id="eiditer" cols="30" rows="10"></textarea>
+    <button  class="btn"  onclick="bold()">Bold</button>
+    <button  class="btn"  onclick="italic()">Italic</button>
+    <button  class="btn"  onclick="underline()">Underline</button>
+    <button  class="btn"  onclick="fontSize()">FontSize</button>
+    <button  class="btn"  onclick="fontFamily()">Font Family</button>
+    <button  class="btn"  onclick="TextColor()">TextColor</button>
+   <input type="color" id="changecolor" onclick="TextColor()">
+   <input type="size" id="fontSize" onclick="FontSize()">
+    <script src="script.js"></script>
+</body>
+</html>
