@@ -16,8 +16,9 @@ function italic() {
 function underline() {
    eiditer_js.style.textDecoration='underline'
 }
-function fontSize() {
-   eiditer_js.style.fontSize=document.getElementById("fontSize").value
+function font_Size() {
+   var inputValue = document.getElementById("size").value
+   eiditer_js.style.fontSize= inputValue+"px"
 }
 function fontFamily() {
    eiditer_js.style.fontFamily='Arial'

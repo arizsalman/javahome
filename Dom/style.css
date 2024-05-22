@@ -1,0 +1,47 @@
+
+body{
+    background-color: chartreuse;
+}
+.main{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.text{
+    font-size: 40px;
+    border: 2px solid rgb(200, 205, 50);
+}
+.todo_item{
+    margin: 10px;
+    font-size: 50px;
+    color:rgb(71, 97, 175);
+    margin-left: 30px;
+}
+.li{
+    margin: 10px;
+    font-size: 50px;
+    margin-left: 40px;
+
+}
+
+
+.edit_btn{
+    background-color: rgb(62, 62, 197);
+    color: white;
+    border:  none;
+    padding: 5px  17px; 
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 45px;
+    font-size: x-large;
+}
+.del_btn{
+    font-size: x-large;
+    background-color: red;
+    color: white;
+    border:  none;
+    padding: 5px  12px; 
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 45px;
+}
