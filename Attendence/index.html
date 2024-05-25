@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+table{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 0;
+    border-collapse: collapse;
+}
+tr,td,th{
+    border: 1px solid black;}
+td{
+    width: 100px;
+    padding: 5px;
+    font-size: 20px;
+}
+    </style>
+<body>
+    <h1> MY ATTENDENCE SHEET</h1>
+<table>
+    
+    <thead>
+        <tbody>
+            <tr>
+                <th>No</th>
+                <th>Student name</th>
+                <th>Day 1</th>
+                <th>Day 2</th>
+                <th>Day 3</th>
+                <th>Day 4</th>
+                <th>Day 5</th>
+                <th>Day 6</th>
+                <th>Day 7</th>
+                <th>Day 8</th>
+                <th>Day 9</th>
+                <th>Day 10</th>
+                <th>Absent</th>
+                <th>Present</th>
+                <th>Leave</th>
+                
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>Ali Khan</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td><input type="text"  id="absent"></td>
+                <td><input type="text"  id="present"></td>
+                <td><input type="number"  id="leave"></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Ahemd Khan</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td><input type="text"  id="absent"></td>
+                <td><input type="text"  id="present"></td>
+                <td><input type="number"  id="leave"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Azam Khan</td>
+                <td onclick="click(this)">A /P / L</td>
+                <td onclick="click(this)">A /P / L</td>
+                <td onclick="click(this)">A /P / L</td>
+                <td onclick="click(this)">A /P / L</td>
+                <td onclick="click(this)">A /P / L</td>
+                <td onclick="click(this)">A /P / L</td>
+                <td onclick="click(this)">A /P / L</td>
+                <td onclick="click(this)">A /P / L</td>
+                <td onclick="click(this)">A /P / L</td>
+                <td onclick="click(this)">A /P / L</td>
+                <td><input type="text"  id="absent"></td>
+                <td><input type="text"  id="present"></td>
+                <td><input type="number"  id="leave"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Yousuf</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td><input type="text"  id="absent"></td>
+                <td><input type="text"  id="present"></td>
+                <td><input type="number"  id="leave"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Alyan</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td><input type="text"  id="absent"></td>
+                <td><input type="text"  id="present"></td>
+                <td><input type="number"  id="leave"></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Fahad</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td><input type="text"  id="absent"></td>
+                <td><input type="text"  id="present"></td>
+                <td><input type="number"  id="leave"></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Ariz</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td onclick="click(this)">A / P / L</td>
+                <td><input type="text"  id="absent"></td>
+                <td><input type="text"  id="present"></td>
+                <td><input type="number"  id="leave"></td>
+            </tr>
+        </tbody>
+    </thead>
+</table>
+
+<script src="app.js"></script>
+</body>
+</html>

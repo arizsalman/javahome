@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        body{background-color: blue;}
+    table{
+        border: 1px solid black;
+        padding: 5px;
+        margin: 0;
+        border-collapse: collapse;
+    }
+    tr, td, th{
+        border: 1px solid black;
+    }
+    td{
+        width: 100px;
+        padding: 10px;
+        font-size: 20px;
+        color: chartreuse;
+
+    }
+</style>
+
+</head>
+
+<body>
+    <h1> Student Entrence Sheet</h1>
+    <input type="text" placeholder="Name" id="name">
+    <input type="text" placeholder="FaterName" id="fathername">
+    <input type="number " placeholder="Age" id="age">
+    <input type="number" placeholder="Rollno" id="rollNo">
+    <input type="number" placeholder="Class" id="class">
+
+    <button onclick="addUser()"> AddUser</button>
+<table>
+    
+    <thead>
+        
+        <tr>
+            <th>NO</th>
+            <th>Name</th>
+            <th>FaterName</th>
+            <th>Age</th>
+            <th>RollNo</th>
+            <th>Class</th>
+        </tr>
+    
+</thead>
+  <tbody id="userTable"></tbody>
+</table>
+    
+    <script src="app.js"></script>
+</body>
+</html>
