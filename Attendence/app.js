@@ -1,12 +1,28 @@
 
+let studentName=document.getElementById("studentName")
+let fatherName=document.getElementById("fatherName")
+let rollNo=document.getElementById("rollNo")
+let age=document.getElementById("age")
 
-var absent  =document.getElementById("absent")
-var present =document.getElementById("present")
-var leave   =document.getElementById("leave")
+function addData() {
+    userTable.innerHTML = "";
+    for (var i = 0; i < userTable.length; i++) {
+      userTable.innerHTML += userTable
+      
+}
 
-function click(element){
-    if (element.firstChild.className ===absent ) {
-        element.innerHTML= A++
-        
-    }
+}
+addData();
+
+function addUser() {
+  var obj = {
+    name: studentName.value,
+    fatherName: fatherName.value,
+    rollNo: rollNo.value,
+    age: age.value,
+  };
+
+//   userTable.push(obj);
+//   console.log(userData);
+  addData();
 }
