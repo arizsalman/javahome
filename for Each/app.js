@@ -104,7 +104,7 @@ function updateDesc(ele) {
   var index = ele.parentElement.id;
   fruits[index].desc = prompt("Desc");
   console.log("fruits-->", fruits);
-  list.innerHTML = "";
+  list.innerHTML = " ";
   fruits.forEach(function (data, ind) {
     var ele = `<div class="lg:w-1/3  sm:w-1/2 p-4">
     <div class="flex relative h-[250px]">
