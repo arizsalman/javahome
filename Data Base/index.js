@@ -18,7 +18,8 @@ var user_email = document.getElementById("user_email");
 var login_container = document.getElementById("login_container");
 var home_container = document.getElementById("home_container");
 var note = document.getElementById("note");
-
+var subject = document.getElementById("subject")
+var newDate= new Date()
 
 function loginUser(){
     if(!email.value||!password.value)
@@ -50,13 +51,19 @@ function submitNote(){
     var obj={
         email:email,
         note: note.value,
+        subject: subject.value,
+        newDate:newDate.toLocaleString()
     };
     saveValueToLocalStorage(obj);
+    console.log("Object=>", obj);
     note.value="";
+    subject.value='';
+    newDate.value="";
 }
 
 function saveValueToLocalStorage( obj){
     var notes=localStorage.getItem("notes")
+    // var subject =localStorage.getItem("subject")
     console.log(notes);
     if(notes){
         notes= JSON.parse(notes) ;
@@ -68,6 +75,7 @@ function saveValueToLocalStorage( obj){
             notes=[obj]
             console.log(notes);
             localStorage.setItem("notes",JSON.stringify(notes));
+            // localStorage.setItem("notes",JSON.stringify(notes));
 
         }
      
@@ -77,6 +85,7 @@ function saveValueToLocalStorage( obj){
 function displayUserNotes(){
     var notes = localStorage.getItem("notes");
     var list= document.getElementById("list")
+    
     var currentUserEmail= localStorage.getItem("email")
 
     if(notes){
@@ -87,12 +96,16 @@ function displayUserNotes(){
             console.log(data);
             if(data.email===currentUserEmail){
                 var liElement=`<li class="border rounded p-2 my-2">
+                <p class=" text-xl font-bold">${data.subject}</p>
+                <p class=" d-flex justify-content-xl-end text-xl">${data.newDate}</p>
                 <p class=" font-medium">${data.note}</p>
                 <p>${data.email}</p>
                 </li>`;
                 list.innerHTML +=liElement
             }else if(currentUserEmail === "admin@gmail.com"){
                 var liElement=`<li class="border rounded p-2 my-2">
+                <p class=" text-xl font-bold">${data.subject}</p>
+                <p class="d-flex justify-content-xl-end text-xl">${data.newDate}</p>
                 <p class=" font-medium">${data.note}</p>
                 <p>${data.email}</p>
                 </li>`;
@@ -105,12 +118,5 @@ displayUserNotes();
 
 
 
-// function conectUsers() {
-//     if (checkIsUserLogin()) {
-//         displayUserNotes();
-//     } else { 
-//         displayUserNotes();
-//     }
-// }
 
 
