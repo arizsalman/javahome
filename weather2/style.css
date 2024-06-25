@@ -1,0 +1,83 @@
+body{
+    /* background: url(mk.avif) ;
+    background-size: cover;
+    
+    
+    background-repeat: no-repeat;
+    height: 100vh; */
+background-color: chartreuse;
+}
+
+
+
+
+
+
+
+
+button {
+    border-radius: 2rem;
+    padding: 0.4rem 0.9rem 0.4rem 0.9rem;
+    background-color: rgb(179, 167, 167);
+    margin-top: 0.7rem;
+    margin-bottom: 0.6rem;
+}
+
+#result{
+    margin-bottom: 1rem;
+    border: 2px solid wheat;
+    padding: 0.5rem;
+}
+ 
+.weatherDiv{
+    border: 3px solid green;
+    width: fit-content;
+    padding:0.5rem;
+    max-width:9rem;
+    min-width:9rem;
+    min-height:6rem;
+    background-color:  rgb(160, 138, 138);
+    color:blanchedalmond;
+    margin: 0.3rem;
+    border-radius: 5px;
+    
+}
+
+#temperature{
+    border: 3px solid rgb(0, 98, 0);
+    width: fit-content;
+    padding:0.5rem;
+    max-width:9rem;
+    min-width:9rem;
+    min-height:6rem;
+    background-color:  rgb(160, 138, 138);
+    color:blanchedalmond;
+    margin: 5rem;
+    margin-top: 0rem;
+    margin-bottom: 0.5rem;
+    border-radius: 1rem;
+}
+
+.article_result{
+    border: 3px dashed white;
+    padding: 1.5rem;
+    background-color:rgb(2, 73, 73);
+    
+}
+
+.article_result2{
+    display: flex;
+}
+
+
+footer{
+        background-color: rgb(160, 138, 138);
+        text-align: center;
+        padding: 0.5rem;
+        color: aliceblue;    
+        font-family: 'Lobster', cursive;
+}
+
+footer a{
+    color: rgb(110, 149, 182);
+}
